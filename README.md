@@ -1,4 +1,4 @@
-# **JavaScript - <em>the future of the web.</em>**
+# **JavaScript - <em>the future of the web</em>**
 
 **Javascript** is one of **the most used programming languages in the world.**
 
