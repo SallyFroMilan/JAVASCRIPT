@@ -1,6 +1,6 @@
 # Arithmetic operators
 
-Arithmetic operators are the **basic operators** that we use to do **sums** in <em>JavaScript.</em>
+**Arithmetic operators** are the **basic operators** that we use to do **sums** in <em>JavaScript.</em>
 
 We probably don't need to teach you **how to do basic math**, but we would like <em>to test your understanding</em> of **the syntax** involved.<br>
 Try entering the <em>examples</em> below into your **developer tools JavaScript console** to <em>familiarize</em> yourself with the **syntax.**
