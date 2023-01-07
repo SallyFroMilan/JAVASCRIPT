@@ -2,7 +2,8 @@
 
 Arithmetic operators are the **basic operators** that we use to do **sums** in <em>JavaScript.</em>
 
-We probably don't need to teach you how to do basic math, but we would like to test your understanding of the syntax involved. Try entering the examples below into your developer tools JavaScript console to familiarize yourself with the syntax.
+We probably don't need to teach you **how to do basic math**, but we would like <em>to test your understanding</em> of **the syntax** involved.<br>
+Try entering the <em>examples</em> below into your **developer tools JavaScript console** to <em>familiarize</em> yourself with the **syntax.**
 
 <p>1. First try entering some simple examples of your own, such as:
 <p>10 + 7;<br>
