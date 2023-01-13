@@ -23,5 +23,3 @@ num2 / num1;</p>
 <p>5 + 10 * 3;<br>
 (num2 % 9) * num1;<br>
 num2 + num1 / 8 + 2;</p>
-
-Parts of this last set of calculations might not give you quite the result you were expecting; the section below might well give the answer as to why.
