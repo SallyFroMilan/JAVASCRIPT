@@ -4,6 +4,12 @@
 
 It's a **scripting language** that caters to <em>web-based programs</em> the most, creating **dynamic and interactive** <em>web content</em> as applications and browsers.
 
+It contains a number of features for:
+- **manipulating strings**
+- **creating custome welcome messages and prompts**
+- **showing the right text labels when needed**
+- **sorting terms into the desired order**
+
 Generally used alongside **HTML** and **CSS**, is able to <em>update and change both of them.</em>
 
 **JS** is great for its **simplicity, speed, versatility, popularity, server load and updates.**
