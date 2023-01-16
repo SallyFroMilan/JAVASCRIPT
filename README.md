@@ -12,7 +12,7 @@ It contains a number of features for:
 
 and much more.
 
-Generally used alongside **HTML** and **CSS**, is able to <em>update and change both of them.</em>
+Generally used alongside **HTML** and **CSS**, is able to **update and change** <em>both of them.</em>
 
 **JS** is great for its **simplicity, speed, versatility, popularity, server load and updates.**
 
