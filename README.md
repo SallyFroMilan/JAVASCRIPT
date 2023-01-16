@@ -10,6 +10,8 @@ It contains a number of features for:
 - **showing the right text labels when needed**
 - **sorting terms into the desired order**
 
+and much more.
+
 Generally used alongside **HTML** and **CSS**, is able to <em>update and change both of them.</em>
 
 **JS** is great for its **simplicity, speed, versatility, popularity, server load and updates.**
