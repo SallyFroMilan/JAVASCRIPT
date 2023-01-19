@@ -1,6 +1,6 @@
 ### Let's quickly play with some numbers to reacquaint ourselves with the basic syntax we need. Enter the commands listed below into your developer tools JavaScript console.
 
-<p>1. First of all, let's declare a couple of variables and initialize them with an integer and a float, respectively, then type the variable names back in to check that everything is in order:
+<p>1. First of all, let's declare a couple of variables and initialize them with **an integer and a float**, respectively, then type the **variable names back in** to check that everything is in order:
 
 <p>const myInt = 5;<br>
 const myFloat = 6.667;<br>
