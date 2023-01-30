@@ -1,19 +1,10 @@
-JavaScript - the future of the web !
+Useful Number methods
 
-Javascript is one of the most used programming languages in the world.
+The Number object,  an instance of which represents all standard numbers you'll use in your JavaScript, has a number of useful methods available on it for you to manipulate numbers. We don't cover these in detail in this article because we wanted to keep it as a simple introduction and only cover the real basic essentials for now.
 
-It's a scripting language that caters the most to web-based programs, creating dynamic and interactive  web content as applications and browsers.
+For example, to round your number to a fixed number of decimal places, use the toFixed() method. Type the following lines into your browser's console: 
 
-It contains a number of features for:
-- manipulating strings
-- creating custome welcome messages and prompts
-- showing the right text labels when needed
-- sorting terms into the desired order
-
-and much more.
-
-Generally used alongside HTML and CSS, is able to update and change both of them.
-
-JS is great for its simplicity, speed, versatility, popularity, server load and updates.
-
-Javascript makes your site or project dynamic !
+const lotsOfDecimal = 1.766584958675746364;
+lotsOfDecimal;
+const twoDecimalPlaces = lotsOfDecimal.toFixed(2);
+twoDecimalPlaces;
