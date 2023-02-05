@@ -8,5 +8,6 @@ Type the following lines into your browser's console:
 
 <p>const lotsOfDecimal = 1.766584958675746364;<br>
 lotsOfDecimal;<br>
+
 const twoDecimalPlaces = lotsOfDecimal.toFixed(2);<br>
 twoDecimalPlaces;</p>
