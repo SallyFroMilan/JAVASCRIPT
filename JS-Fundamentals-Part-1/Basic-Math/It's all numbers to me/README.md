@@ -1,4 +1,4 @@
-#### Let's quickly play with some numbers to reacquaint ourselves with the basic syntax we need.
+### Let's quickly play with some numbers to reacquaint ourselves with the basic syntax we need.
 Enter the commands listed below into your developer tools JavaScript console.
 
 <p>1. First of all, let's declare a couple of variables and initialize them with an integer and a float, respectively, then type the variable names back in to check that everything is in order:
@@ -10,7 +10,7 @@ myFloat;</p>
 
 <p>2. Number values are typed in without quote marks — try declaring and initializing a couple more variables containing numbers before you move on.
 
-<p>3. Now let's check that both our original variables are of the same datatype. There is an operator called <em>typeof</em> in JavaScript that does this. Enter the below two lines as shown:
+<p>3. Now let's check that both our original variables are of the same datatype. There is an operator called <em>typeof</em> in Javascript that does this. Enter the below two lines as shown:
 
 <p>typeof myInt;<br>
 typeof myFloat;</p>
