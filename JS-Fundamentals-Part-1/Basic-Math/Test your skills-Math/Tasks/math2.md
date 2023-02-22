@@ -1,6 +1,7 @@
 # Math task 2 
 
-In the second task you are already provided with two calculations, with the results stored in the variables <em>result</em> and <em>result2.</em>But these results aren't what we want; you'll need to take the calculations and change them to give us what we want.
+In the second task you are already provided with two calculations, with the results stored in the variables <em>result</em> and <em>result2.</em><br>
+But these results aren't what we want; you'll need to take the calculations and change them to give us what we want.
 
 What do we want? After multiplying the two results together and formatting the result to 2 decimal places, the final result should be 10.42.
 
