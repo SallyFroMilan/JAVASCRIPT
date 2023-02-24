@@ -14,7 +14,7 @@ You end up with the result 743, not 77, because <em>myNumber</em> is actually **
 
 <p>typeof myNumber;</p>
 
-<p>To fix the calculation, you can do this:</p>
+<p>To <strong>fix the calculation</strong>, you can do this:</p>
 
 <p>let myNumber = "74";<br>
 myNumber = Number(myNumber) + 3;</p>
