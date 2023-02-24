@@ -6,9 +6,10 @@
 
 ### Let's start out by testing your knowledge of basic math operators. 
 
-You will have to create four numeric values, then add the first two together, then subtract the fourth from the third, then multiply the two secondary results together to get a result of 48. Finally, we need to write a test that proves that this value is an <em>even number.</em>
+You will have to <em>create</em> four <strong>numeric values</strong>, then <em>add</em> the first two together, then <em>subtract</em> the fourth from the third, then <em>multiply</em> the two secondary results together to get a result of 48.<br>
+Finally, we need to <em>write</em> a test that proves that this <strong>value</strong> is an <em>even number.</em>
 
-So, try updating the starting point for this task to recreate the finished example, following these steps:
+So, try <strong>updating the starting point</strong> for this task to <em>recreate</em> the <strong>finished example</strong>, following these steps:
 
 1. Create four variables that contain numbers. Call the variables something sensible.
 
