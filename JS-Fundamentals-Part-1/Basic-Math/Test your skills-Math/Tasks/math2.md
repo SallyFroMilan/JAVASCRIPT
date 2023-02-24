@@ -1,11 +1,11 @@
 # Math task 2 
 
-In the second task you are already provided with two calculations, with the results stored in the variables <em>result</em> and <em>result2.</em><br>
-But these results aren't what we want; you'll need to take the calculations and change them to give us what we want.
+In the second task you are already provided with <strong>two calculations</strong>, with the <strong>results stored in the variables</strong> <em>result</em> and <em>result2.</em><br>
+But these <strong>results</strong> <em>aren't what we want</em>; you'll need to take the <strong>calculations</strong> and change them to <em>give us what we want.</em>
 
-What do we want? After multiplying the two results together and formatting the result to 2 decimal places, the final result should be 10.42.
+<em>What do we want?</em> After <strong>multiplying</strong> the two results together and <strong>formatting</strong> the result to 2 decimal places, the final result should be 10.42.
 
-Try updating the starting point to recreate the finished example, following these steps:
+Try <strong>updating the starting point</strong> to <strong>recreate</strong> the finished example, following these steps:
 
 1. Write a calculation that multiplies <em>result</em> and <em>result2</em> together and assigns the result back to <em>result.</em> This will require assignment shorthand.
 
