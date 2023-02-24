@@ -10,7 +10,7 @@ Try entering the <em>examples</em> below into your **developer tools JavaScript 
 9 * 8;<br>
 60 % 3;
 
-<p>2. You can also try declaring and initializing some numbers inside variables, and try using those in the sums — the variables will behave exactly like the values they hold for the purposes of the sum. For example:
+<p>2. You can also try declaring and initializing some <strong>numbers</strong> inside <strong>variables</strong>, and try using those in the <strong>sums</strong> — the <strong>variables</strong> will behave exactly like the <strong>values</strong> they hold for the purposes of the <strong>sum</strong>. For example:
 
 <p>const num1 = 10;<br>
 const num2 = 50;<br>
@@ -18,7 +18,7 @@ const num2 = 50;<br>
 num1 ** 3;<br>
 num2 / num1;</p>
 
-<p>3. Last for this section, try entering some more complex expressions, such as:
+<p>3. Last for this section, try entering some more <em>complex expressions</em>, such as:
 
 <p>5 + 10 * 3;<br>
 (num2 % 9) * num1;<br>
