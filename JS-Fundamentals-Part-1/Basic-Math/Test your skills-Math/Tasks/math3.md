@@ -2,5 +2,5 @@
 
 In the final task for this article, we want you to write some tests.
 
-You've got three groups, each consisting of a statement and two variables.<br>
-For each one, write a test that proves or disproves the statement made. Store the results of those tests in variables called <em>weightComparison</em>, <em>heightComparison</em>, and <em>pwdMatch</em>, respectively.
+You've got three groups, each consisting of a <strong>statement</strong> and two <strong>variables</strong>.<br>
+For each one, <em>write</em> a test that <strong>proves or disproves the statement made</strong>. <em>Store</em> the <strong>results</strong> of those tests in <strong>variables</strong> called <em>weightComparison</em>, <em>heightComparison</em>, and <em>pwdMatch</em>, respectively.
