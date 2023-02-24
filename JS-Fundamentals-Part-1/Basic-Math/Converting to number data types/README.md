@@ -5,7 +5,7 @@ Sometimes you might end up with a **number** that is <em>stored</em> as a **stri
 There is a way to solve this problem:<br> 
 **passing the string value into the <em>Number()</em> constructor to return a number version of the same value.**
 
-For example, try typing these lines into your console:
+For example, try <strong>typing these lines into your console</strong>:
 
 <p>let myNumber = "74";<br>
 myNumber += 3;</p>
