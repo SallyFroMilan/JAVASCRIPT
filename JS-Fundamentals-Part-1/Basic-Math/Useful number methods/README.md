@@ -5,7 +5,7 @@ The <em>**Number object**</em>,  an instance of which **represents all standard 
 We don't cover these in detail in this article because we wanted to keep it as a simple introduction and only cover the <em>real basic essentials</em> for now.
 
 For example, to **round your number** to a <strong>fixed number of decimal places</strong>, use the <em>toFixed()</em> **method**.<br>
-Type the following lines into your browser's console: 
+Type the following lines into <strong>your browser's console</strong>: 
 
 <p>const lotsOfDecimal = 1.766584958675746364;<br>
 lotsOfDecimal;<br>
