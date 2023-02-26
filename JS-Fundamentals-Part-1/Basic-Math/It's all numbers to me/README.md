@@ -1,5 +1,5 @@
 ### Let's quickly play with some numbers to reacquaint ourselves with the basic syntax we need.
-<strong>Enter the commands listed below into your developer tools JavaScript console.</strong>
+Enter the commands listed below into your <strong>developer tools JavaScript console.</strong>
 <p>1. First of all, let's declare a couple of <strong>variables</strong> and initialize them with an <strong>integer</strong> and a <strong>
 float</strong>, respectively, then type the <strong>variable names</strong> back in to check that everything is in order:
 
