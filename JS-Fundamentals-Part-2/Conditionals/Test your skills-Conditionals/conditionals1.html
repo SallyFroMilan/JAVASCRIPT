@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Conditionals: Task 1</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    
+    <section class="preview"></section>
+
+    <script>
+
+    let season = 'summer';
+    let response;
+    
+    if(season === 'summer') {
+      response = 'It is hot';
+    } else if (season === 'winter') {
+      response = 'It is cold';
+    } else {
+      response = 'we do not know what the season is';
+    } 
+      
+    const section = document.querySelector('section');
+    
+    let para1 = document.createElement('p');
+    para1.textContent = response;
+    section.appendChild(para1);
+        
+    </script>
+  </body>
+</html>

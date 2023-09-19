@@ -1,0 +1,40 @@
+# Else if
+
+There is a way to **chain on extra choices/outcomes** to your <em>if...else</em> — using <em>else if.</em> Each **extra choice** requires an **additional block** to put in between <em>if () { }</em> and <em>else { }</em> — check out the following more involved example, which could be part of a "simple weather forecast application":
+
+<p>< label for="weather" >Select the weather type today: < /label ><br>
+< select id="weather" ><br>
+< option value="" >--Make a choice--< /option ><br>
+< option value="sunny" >Sunny< /option ><br>
+< option value="rainy" >Rainy< /option ><br>
+< option value="snowing" >Snowing< /option ><br>
+< option value="overcast" >Overcast< /option ><br>
+< /select ></p>
+  
+< p>< /p >
+  
+<p>const select = document.querySelector('select');<br>
+const para = document.querySelector('p');</p>
+
+<p>select.addEventListener('change', setWeather);</p>
+
+<p>function setWeather() {<br>
+const choice = select.value;</p>
+
+  <p>if (choice === 'sunny') {<br>
+    para.textContent = 'It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.';<br>
+  } else if (choice === 'rainy') {<br>
+    para.textContent = 'Rain is falling outside; take a rain coat and an umbrella, and don\'t stay out for too long.';<br>
+  } else if (choice === 'snowing') {<br>
+    para.textContent = 'The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.';<br>
+  } else if (choice === 'overcast') {<br>
+    para.textContent = 'It isn\'t raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.';<br>
+  } else {<br>
+    para.textContent = '';<br>
+  }<br>
+
+ 
+1. Here we've got an HTML <em>< select ></em> element allowing us to make **different weather choices**, and a **simple paragraph.**
+2. In **JavaScript**, we are storing a reference to both the <em>< select ></em> and <em>< p ></em> elements, and adding an **event listener** to the <em>< select ></em> element so that when its value is changed, the <em>setWeather()</em> function is run.
+3. When this function is run, we first set a variable called <em>choice</em> to the current value selected in the <em>< select ></em> element. We then use a conditional statement to show **different text** inside the paragraph depending on what the value of <em>choice</em> is. Notice how all the conditions are tested in <em>else if () { }</em> blocks, except for the first one, which is tested in an <em>if () { }</em> block.
+4. The very last choice, inside the <em>else { }</em> block, is basically a "last resort" option — the code inside it will be run if none of the conditions are <em>true.</em> In this case, it serves to **empty the text out of the paragraph** if nothing is selected, for example, if a user decides to re-select the "--Make a choice--" placeholder option shown at the beginning.
