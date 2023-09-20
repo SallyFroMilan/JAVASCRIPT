@@ -1,8 +1,8 @@
 # Events
 
 Now that we have a handle on **manipulating the DOM with JavaScript**, the next step is learning how to make that happen *dynamically*, or on demand!<br>
-Events are *how you make that magic happen on your pages*.<br>
-Events are *actions that occur on your webpage such as mouse-clicks or keypresses*, and using **JavaScript** we can make our webpage *listen and react* to these events.
+**Events** are *how you make that magic happen on your pages*.<br>
+**Events** are *actions that occur on your webpage such as mouse-clicks or keypresses*, and using **JavaScript** we can make our webpage *listen and react* to these events.
 
 There are **three primary ways** to go about this: 
 <ul>
@@ -13,7 +13,7 @@ There are **three primary ways** to go about this:
 
 **Event listeners** are definitely the *preferred method*, but you will regularly see the others in use, so we’re going to cover all three.
 
-We’re going to create 3 buttons that all alert “Hello World” when clicked. Try them all out using your own HTML file, or using something like CodePen.
+We’re going to create 3 buttons that all alert “Hello World” when clicked. Try them all out using your own **HTML file**, or using something like CodePen.
 
 **Method 1**
 
