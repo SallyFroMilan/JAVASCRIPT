@@ -56,7 +56,7 @@ We’ll start with the **query selectors** - *those that help you target* **node
 <li>element.querySelectorAll(selectors) - returns a “nodelist” containing references to all of the matches of the selectors</li>
 </ul>
 
-There are several other, more specific queries, that offer potential (marginal) performance benefits, but we won't be going over them now.
+> There are several other, more specific queries, that offer potential (marginal) performance benefits, but we won't be going over them now.
 
 
 It’s important to note that when using querySelectorAll, the return value *is not* **an array**. It looks like an array, and it somewhat acts like an array, but it’s really a **“nodelist”**.
