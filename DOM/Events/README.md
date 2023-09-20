@@ -13,7 +13,7 @@ There are **three primary ways** to go about this:
 2. you can set properties of form on[eventType] (onclick, onmousedown, etc.) on the <strong>DOM nodes in your JavaScript</strong>
 3. you can attach <strong>event listeners to the DOM nodes in your JavaScript.</strong>
 
-**Event listeners** are definitely the *preferred method*, but you will regularly see the others in use, so we’re going to cover all three.
+>**Event listeners** are definitely the *preferred method*, but you will regularly see the others in use, so we’re going to cover all three.
 
 We’re going to create 3 buttons that all alert “Hello World” when clicked. Try them all out using your own **HTML file**, or using something like CodePen.
 
