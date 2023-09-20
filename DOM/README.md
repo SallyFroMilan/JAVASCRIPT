@@ -45,9 +45,9 @@ So you’re **identifying a certain node** based on its *relationships to the **
 
 # DOM methods
 
-When your **HTML** code is parsed by a web browser, it is **converted to the DOM** as was mentioned above. One of the primary differences is that these nodes are objects that have many *properties and methods* attached to them.
+When your **HTML** code is parsed by a **web browser**, it is **converted to the DOM** as was mentioned above. One of the primary differences is that these **nodes are objects** that have many *properties and methods* attached to them.
 
-These *properties and methods* are the primary tools we are going to use to *manipulate* our webpage with **JavaScript**.<br>
+These *properties and methods* are the primary tools we are going to use to *manipulate* our **webpage** with **JavaScript**.<br>
 We’ll start with the **query selectors** - *those that help you target* **nodes**.
 
 **Query selectors**
