@@ -1,15 +1,17 @@
 # Events
 
 Now that we have a handle on **manipulating the DOM with JavaScript**, the next step is learning how to make that happen *dynamically*, or on demand!<br>
-<p><strong>Events</strong> are <em>how you make that magic happens on your pages</em>.<br>
-<strong>Events</strong> are <em>actions that occur on your webpage such as mouse-clicks or keypresses</em>, and using <strong>JavaScript</strong> we can make our webpage <em>listen and react</em> to these events.</p>
+<p><strong>Events</strong> are:
+
+- <em>how you make that magic happens on your pages</em>
+- <em>actions that occur on your webpage such as mouse-clicks or keypresses</em>, and using <strong>JavaScript</strong> we can make our webpage <em>listen and react</em> to these events
+
 
 There are **three primary ways** to go about this: 
-<ul>
-<li>you can specify function attributes directly on your <strong>HTML elements</strong></li>
-<li>you can set properties of form on[eventType] (onclick, onmousedown, etc.) on the <strong>DOM nodes in your JavaScript</strong></li>
-<li>you can attach <strong>event listeners to the DOM nodes in your JavaScript.</strong></li>
-</ul>
+
+1. you can specify function attributes directly on your <strong>HTML elements</strong>
+2. you can set properties of form on[eventType] (onclick, onmousedown, etc.) on the <strong>DOM nodes in your JavaScript</strong>
+3. you can attach <strong>event listeners to the DOM nodes in your JavaScript.</strong>
 
 **Event listeners** are definitely the *preferred method*, but you will regularly see the others in use, so we’re going to cover all three.
 
