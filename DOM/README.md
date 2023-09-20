@@ -41,7 +41,7 @@ You can also use **relational selectors**<br>
 <p>console.dir(controls.previousElementSibling);<br>                  
 // selects the prior sibling => .display</p>
 
-So you’re identifying a certain node based on its *relationships to the **nodes** around it*.
+So you’re **identifying a certain node** based on its *relationships to the **nodes** around it*.
 
 
 
