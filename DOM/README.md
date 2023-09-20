@@ -43,7 +43,27 @@ You can also use **relational selectors**<br>
 
 So you’re **identifying a certain node** based on its *relationships to the **nodes** around it*.
 
+# DOM methods
 
+When your **HTML** code is parsed by a web browser, it is **converted to the DOM** as was mentioned above. One of the primary differences is that these nodes are objects that have many *properties and methods* attached to them.
+
+These *properties and methods* are the primary tools we are going to use to *manipulate* our webpage with **JavaScript**.<br>
+We’ll start with the **query selectors** - *those that help you target* **nodes**.
+
+**Query selectors**
+<ul>
+<li>element.querySelector(selector) - returns a reference to the first match of selector</li>
+<li>element.querySelectorAll(selectors) - returns a “nodelist” containing references to all of the matches of the selectors</li>
+</ul>
+
+There are several other, more specific queries, that offer potential (marginal) performance benefits, but we won't be going over them now.
+
+
+It’s important to note that when using querySelectorAll, the return value *is not* **an array**. It looks like an array, and it somewhat acts like an array, but it’s really a **“nodelist”**.
+
+The big distinction is that several **array methods** *are missing from* **nodelists**.
+
+One solution, if problems arise, is to *convert the nodelist into an* **array**. You can do this with Array.from() or the spread operator.
 
 
 
