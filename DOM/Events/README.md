@@ -1,8 +1,8 @@
 # Events
 
 Now that we have a handle on **manipulating the DOM with JavaScript**, the next step is learning how to make that happen *dynamically*, or on demand!<br>
-**Events** are *how you make that magic happen on your pages*.<br>
-**Events** are *actions that occur on your webpage such as mouse-clicks or keypresses*, and using **JavaScript** we can make our webpage *listen and react* to these events.
+<p><strong>Events</strong> are <em>how you make that magic happen on your pages</em>.<br>
+<p><strong>Events</strong> are <em>actions that occur on your webpage such as mouse-clicks or keypresses</em>, and using <strong>JavaScript</strong> we can make our webpage <em>listen and react</em> to these events.</p>
 
 There are **three primary ways** to go about this: 
 <ul>
