@@ -82,7 +82,7 @@ This might seem like a lot of code if you’re attaching lots of **similar event
     </div> 
 ---
 
-    // buttons is a node list. It looks and acts much       like an array.
+    // buttons is a node list. It looks and acts much like an array.
     const buttons = document.querySelectorAll('button');
 
     // we use the .forEach method to iterate through each button
