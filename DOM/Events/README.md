@@ -80,19 +80,19 @@ This might seem like a lot of code if you’re attaching lots of **similar event
         <button id="2">Click Me</button>
         <button id="3">Click Me</button>
     </div> 
+---
 
- 
-<p>// buttons is a node list. It looks and acts much like an array.<br>
-    const buttons = document.querySelectorAll('button');</p>
+    // buttons is a node list. It looks and acts much       like an array.
+    const buttons = document.querySelectorAll('button');
 
-<p>// we use the .forEach method to iterate through each button<br>
-    buttons.forEach((button) => {</p>
+    // we use the .forEach method to iterate through each button
+    buttons.forEach((button) => {
 
-<p>// and for each one we add a 'click' listener<br>
-    button.addEventListener('click', () => {<br>
-        alert(button.id);<br>
-    });<br>
- });</p>
+        // and for each one we add a 'click' listener
+        button.addEventListener('click', () => {
+            alert(button.id);
+        });
+    });
 
 
 
