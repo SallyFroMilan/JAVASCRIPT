@@ -96,7 +96,7 @@ This might seem like a lot of code if you’re attaching lots of **similar event
 
 
 
-This is just the tip of the iceberg when it comes to **DOM manipulation and event handling**, but it’s enough to get you started with some exercises. In our examples so far we have been using the *‘click’* event exclusively, but there are many more available to you.
+This is just the tip of the iceberg when it comes to **DOM manipulation and event handling**, but it’s enough to get you started with some exercises. In our examples so far we have been using the ***‘click’*** *event* exclusively, but there are many more available to you.
 
 Some useful events include:
 <ul>
