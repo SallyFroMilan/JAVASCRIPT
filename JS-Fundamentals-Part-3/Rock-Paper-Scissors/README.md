@@ -8,6 +8,6 @@ Finally, this is your *first JavaScript program built from scratch*, so don’t 
 
 <ul>
 <li><strong>Plan your solution out before writing any code</strong></li>
-<li><strong>test each piece as you build to ensure it is working before moving on to the next!<strong></li>
+<li><strong>Test each piece as you build to ensure it is working before moving on to the next!<strong></li>
 </ul>
 
