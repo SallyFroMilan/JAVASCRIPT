@@ -7,7 +7,7 @@ For the moment we’re just going to play the game from the *browser console*, b
 Finally, this is your *first JavaScript program built from scratch*, so don’t forget the previous lesson on *problem solving*:
 
 <ul>
-<li><strong>Plan your solution out before writing any code</strong> and</li>
-<li><strong>test each piece as you build** to ensure it is working before moving on to the next!<strong></li>
+<li><strong>Plan your solution out before writing any code</strong></li>
+<li><strong>test each piece as you build to ensure it is working before moving on to the next!<strong></li>
 </ul>
 
