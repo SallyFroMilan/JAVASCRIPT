@@ -2,8 +2,9 @@
 
 <ol>
 <li>Start a new Git repo for your project.</li>
-<li>Create a blank HTML document with a script tag (Hint: it is best practice to link an external .js file). This game is going to be played completely from the console, so don’t worry about putting anything else in there.</li>
-<li>Your game is going to play against the computer, so begin with a function called <strong>getComputerChoice</strong> that will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’. We’ll use this function in the game to make the computer’s play. <em>Tip: use the console to make sure this is returning the expected output before moving to the next step!</em></li>
+<li>Create a blank HTML document with a script tag (Hint: it is best practice to link an external .js file). This game is going to be played completely from the <em>console</em>, so don’t worry about putting anything else in there.</li>
+<li>Your game is going to play against the computer, so begin with a function called <strong>getComputerChoice</strong> that will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’. We’ll use this function in the game to make the computer’s play.<br>
+<em>Tip: use the console to make sure this is returning the expected output before moving to the next step!</em></li>
 <li>Write a function that plays a single round of Rock Paper Scissors. The function should take two parameters - the <strong>playerSelection</strong> and <strong>computerSelection</strong> - and then return a string that declares the winner of the round like so: <strong>"You Lose! Paper beats Rock".</strong></li>
 <ul>
 <li>Make your function’s playerSelection parameter case-insensitive (so users can input <strong>rock, ROCK, RocK</strong> or any other variation).</li>
