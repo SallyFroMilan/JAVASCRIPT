@@ -1,7 +1,8 @@
 # Ternary operator example
 
 **The ternary operator** is not just for **setting variable values**:<br>
-you can also **run functions**, or **lines of code** — anything you like.<br>
+you can also **run functions, or lines of code** — anything you like.<br>
+
 The following live example shows <em>a simple theme chooser</em> where the <strong>styling for the site</strong> is applied using a <strong>ternary operator.</strong>
 
 HTML
