@@ -10,7 +10,7 @@ If not, it should assign a <strong>generic string</strong> to `response` that te
 
 To finish off, you should then add another test that checks whether `season` contains the <strong>string "winter"</strong>, and again assigns an appropriate <strong>string </strong>to `response`.
 
-Try updating the live code below to recreate the finished example:
+Try updating the code below to recreate the finished example:
 
 
 
