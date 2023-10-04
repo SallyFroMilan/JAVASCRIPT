@@ -9,3 +9,16 @@ We want you to create a <strong>conditional</strong> that checks whether `season
 If not, it should assign a <strong>generic string</strong> to `response` that tells the user <strong>we don't know what</strong> <em>season</em> <strong>it is.</strong>
 
 To finish off, you should then add another test that checks whether `season` contains the <strong>string "winter"</strong>, and again assigns an appropriate <strong>string </strong>to `response`.
+
+    let season = 'summer';
+    let response;
+
+    // Add your code here
+
+    // Don't edit the code below here!
+
+    const section = document.querySelector('.preview');
+    section.innerHTML = ' ';
+    let para1 = document.createElement('p');
+    para1.textContent = response;
+    section.appendChild(para1);
