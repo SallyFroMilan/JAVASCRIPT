@@ -1,8 +1,8 @@
 # A real example
 
-To <em>better understand</em> this <strong>syntax</strong>, let's consider a real <em>example.</em>
+To better understand this <strong>syntax</strong>, let's consider a real example.
 
-Imagine a child being asked for help with a chore by their mother or father. The parent might say <em>"Hey sweetheart! If you help me by going and doing the shopping, I'll give you some extra allowance so you can afford that toy you wanted."</em> 
+Imagine a child being asked for help with a chore by their mother or father. The parent might say "Hey sweetheart! If you help me by going and doing the shopping, I'll give you some extra allowance so you can afford that toy you wanted."
 
 In <strong>JavaScript</strong>, we could represent this like so:</em>
 
