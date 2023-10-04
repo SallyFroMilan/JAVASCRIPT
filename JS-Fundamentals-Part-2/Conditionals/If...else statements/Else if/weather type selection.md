@@ -9,7 +9,7 @@ HTML
     <option value=""> --Make a choice-- </option>
     <option value="sunny"> Sunny </option>
     <option value="rainy"> Rainy </option>
-    <option value="snowing"> Snowin g</option>
+    <option value="snowing"> Snowing </option>
     <option value="overcast"> Overcast </option>
     </select>
   
@@ -22,11 +22,11 @@ JS
 
     select.addEventListener('change', setWeather);
 
-    function setWeather() {<br>
+    function setWeather() {
       const choice = select.value;
 
-      if (choice === 'sunny') {<br>
-        para.textContent =<br>
+      if (choice === 'sunny') {
+        para.textContent =
           'It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.';
       } else if (choice === 'rainy') {
         para.textContent =
@@ -43,6 +43,6 @@ JS
     }
 
 1. Here we've got an HTML `<select>` element allowing us to make **different weather choices**, and a **simple paragraph.**
-2. In **JavaScript**, we are storing a reference to both the `<select>` and `<p>` elements, and adding an **event listener** to the `<select>` element so that when its value is changed, the <em>setWeather()</em> function is run.
-3. When this function is run, we first set a variable called <em>choice</em> to the current value selected in the `<select>` element. We then use a conditional statement to show **different text** inside the paragraph depending on what the value of <em>choice</em> is. Notice how all the conditions are tested in <em>else if () { }</em> blocks, except for the first one, which is tested in an <em>if () { }</em> block.
-4. The very last choice, inside the <em>else { }</em> block, is basically a "last resort" option — the code inside it will be run if none of the conditions are <em>true.</em> In this case, it serves to **empty the text out of the paragraph** if nothing is selected, for example, if a user decides to re-select the "--Make a choice--" placeholder option shown at the beginning.
+2. In **JavaScript**, we are storing a reference to both the `<select>` and `<p>` elements, and adding an **event listener** to the `<select>` element so that when its value is changed, the `setWeather()` function is run.
+3. When this function is run, we first set a variable called `choice` to the current value selected in the `<select>` element. We then use a conditional statement to show **different text** inside the paragraph depending on what the value of `choice` is. Notice how all the conditions are tested in `else if () { }` blocks, except for the first one, which is tested in an `if () { }` block.
+4. The very last choice, inside the `else { }` block, is basically a "last resort" option — the code inside it will be run if none of the conditions are `true.` In this case, it serves to **empty the text out of the paragraph** if nothing is selected, for example, if a user decides to re-select the "--Make a choice--" placeholder option shown at the beginning.
