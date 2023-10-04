@@ -7,4 +7,4 @@ In this example, you are going to take the <strong>ternary operator</strong> exa
 <li>For each case, the <code>update()</code> function should be run, and be passed two color values, the first one for the background color, and the second one for the text color. Remember that color values are strings, so they need to be wrapped in quotes.</li>
 </ul>
 
-<em>If you make a mistake</em>, you can always <strong>reset the example</strong> with the "Reset" button. If you get really stuck, press "Show solution" to see a solution.
+
