@@ -1,37 +1,41 @@
 # Else if
 
-There is a way to **chain on extra choices/outcomes** to your <em>if...else</em> — using <em>else if.</em> Each **extra choice** requires an **additional block** to put in between <em>if () { }</em> and <em>else { }</em> — check out the following more involved example, which could be part of a "simple weather forecast application":
+There is a way to **chain on extra choices/outcomes** to your <code>if...else</code> — using <code>else if.</code> Each **extra choice** requires an **additional block** to put in between <code>if () { }</code> and <code>else { }</code> — check out the following more involved example, which could be part of a "simple weather forecast application":
 
-<p>< label for="weather" >Select the weather type today: < /label ><br>
+HTML
+
+`<label for="weather">Select the weather type today: <label>`
+
+
 < select id="weather" ><br>
 < option value="" >--Make a choice--< /option ><br>
 < option value="sunny" >Sunny< /option ><br>
 < option value="rainy" >Rainy< /option ><br>
 < option value="snowing" >Snowing< /option ><br>
 < option value="overcast" >Overcast< /option ><br>
-< /select ></p>
+< /select >
   
-< p>< /p >
-  
-<p>const select = document.querySelector('select');<br>
-const para = document.querySelector('p');</p>
+< p>< /p >`
 
-<p>select.addEventListener('change', setWeather);</p>
+JS
 
-<p>function setWeather() {<br>
-const choice = select.value;</p>
-
-  <p>if (choice === 'sunny') {<br>
-    para.textContent = 'It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.';<br>
-  } else if (choice === 'rainy') {<br>
-    para.textContent = 'Rain is falling outside; take a rain coat and an umbrella, and don\'t stay out for too long.';<br>
-  } else if (choice === 'snowing') {<br>
-    para.textContent = 'The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.';<br>
-  } else if (choice === 'overcast') {<br>
-    para.textContent = 'It isn\'t raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.';<br>
-  } else {<br>
-    para.textContent = '';<br>
-  }<br>
+<code>const select = document.querySelector('select');
+const para = document.querySelector('p');
+select.addEventListener('change', setWeather);
+function setWeather() {
+const choice = select.value;
+  if (choice === 'sunny') {
+    para.textContent = 'It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.';
+  } else if (choice === 'rainy') {
+    para.textContent = 'Rain is falling outside; take a rain coat and an umbrella, and don\'t stay out for too long.';
+  } else if (choice === 'snowing') {
+    para.textContent = 'The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.';
+  } else if (choice === 'overcast') {
+    para.textContent = 'It isn\'t raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.';
+  } else {
+    para.textContent = '';
+      }
+  }</code>
 
  
 1. Here we've got an HTML <em>< select ></em> element allowing us to make **different weather choices**, and a **simple paragraph.**
