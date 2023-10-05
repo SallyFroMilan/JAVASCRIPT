@@ -26,4 +26,4 @@ JS
 
     button.addEventListener("click", greet);
 
-Here we're using the <em>window.prompt()</em> <strong>function</strong>, which asks the user to <em>answer a question</em> via a <strong>popup dialog box</strong> then <em>stores the text</em> they enter inside a given <strong>variable</strong> — in this case <em>name.</em> We then use the <em>window.alert()</em> <strong>function</strong> to display <strong>another popup</strong> containing a <strong>string</strong> which <em>inserts the name</em> into a generic greeting message.
+Here we're using the `window.prompt()` <strong>function</strong>, which asks the user to <em>answer a question</em> via a <strong>popup dialog box</strong> then <em>stores the text</em> they enter inside a given <strong>variable</strong> — in this case `name`. We then use the <em>window.alert()</em> <strong>function</strong> to display <strong>another popup</strong> containing a <strong>string</strong> which <em>inserts the name</em> into a generic greeting message.
