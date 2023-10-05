@@ -17,3 +17,24 @@ If the machine is <strong>on</strong>, we also want a <strong>second conditional
 - If <strong>not</strong>, it should assign a <strong>different string</strong> to <em>pwdResult</em> telling the user their <strong>login attempt was not successful.</strong> 
 
 We'd like you to do this in a single line, using something that isn't an <em>if...else</em> structure.
+
+
+    let machineActive = true;
+    let pwd = 'cheese';
+
+    let machineResult;
+    let pwdResult;
+
+    // Add your code here
+
+    // Don't edit the code below here!
+
+    section.innerHTML = ' ';
+    let para1 = document.createElement('p');
+    let para2 = document.createElement('p');
+
+    para1.textContent = machineResult;
+    para2.textContent = pwdResult;
+
+    section.appendChild(para1);
+    section.appendChild(para2);
