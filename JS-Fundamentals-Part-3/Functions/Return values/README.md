@@ -8,3 +8,5 @@ There's one more **essential concept** about **functions** for us to discuss —
 <li>how to use them in your code</li>
 <li>how to make functions return useful values</li>
 </ul>
+
+**Return values** are just what they sound like — values that a **function** *returns when it completes*.
