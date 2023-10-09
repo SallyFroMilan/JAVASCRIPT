@@ -42,3 +42,13 @@ JS
             para.textContent += `${num} factorial is ${factorial(num)}. `;
         }
     });
+
+Save your code, load it in a browser, and try it out.
+
+### Here are some explanations for the `addEventListener` function in step 3 above:
+
+<ul>
+<li>By adding a listener to the <code>change</code> event, this function runs whenever the <code>change</code> event fires on the text <code>input</code>  — that is when a new value is entered into the text input, and submitted (e.g., enter a value, then un-focus the input by pressing Tab or Return). When this anonymous function runs, the value in the <code>input</code> is stored in the num constant.</li>
+<li>The if statement prints an error message if the entered value is not a number. The condition checks if the expression <code>isNaN(num)</code> returns <code>true</code>. The <code>isNaN()</code> function tests whether the <code>num</code> value is not a number — if so, it returns <code>true</code>, and if not, it returns <code>false</code>.</li>
+<li>If the condition returns <code>false</code>, the <code>num</code> value is a number and the function prints out a sentence inside the paragraph element that states the square, cube, and factorial values of the number. The sentence calls the <code>squared()</code>, <code>cubed()</code>, and <code>factorial()</code> functions to calculate the required values.</li>
+</ul>
