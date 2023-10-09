@@ -12,7 +12,7 @@ In our first looping task we want you to start by creating a simple loop that go
 
 ## Task 2
 
-In this next task, we want you to write a simple program that, given a name, searches an array of objects containing names and phone numbers (phonebook) and, if it finds the name, outputs the name and phone number into the paragraph (para) and then exits the loop before it has run its course.
+In this next task, we want you to write a simple program that, given a name, searches an array of objects containing names and phone numbers (`phonebook`) and, if it finds the name, outputs the name and phone number into the paragraph (`para`) and then exits the loop before it has run its course.
 
 If you haven't read about objects yet, don't worry! For now, all you need to know is how to access a member-value pair. You can read up on objects in the JavaScript object basics tutorial.
 
