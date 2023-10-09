@@ -9,6 +9,5 @@ One way to make a computer do a *repetitive task* is using a **loop**.<br>
 ## Why are loops useful?
 
 <strong>Loops</strong> are all about doing <em>the same thing over and over again</em>: a way to <strong>repeat the same code multiple times</strong>.<br>
-
 Often, the code will be slightly different each time round the loop, or the same code will run but with different variables.
 
