@@ -1,6 +1,6 @@
 # Revisiting Rock Paper Scissors
 
-Now that we can manipulate the DOM, it’s time to revisit **Rock Paper Scissors** and add a simple UI to it.
+Now that we can manipulate the DOM, it’s time to revisit **Rock Paper Scissors** and **add a simple UI** to it.
 
 Before you start making changes to your Rock Paper Scissors project, you need to learn about a concept in **Git** called **branching** so that you can make your changes without having to worry about breaking what you have now.
 
