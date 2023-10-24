@@ -1,8 +1,10 @@
 # DOM Manipulation and Events
 
-One of the *most unique and useful abilities of* **JavaScript** is its ability to **manipulate the DOM**. But what is the **DOM**?
+One of the *most unique and useful abilities of* **JavaScript** is its ability to **manipulate the DOM**.
 
-The **DOM** (or Document Object Model) is a *tree-like representation of the contents of a* **webpage** - a tree of **“nodes”** with different relationships depending on how they’re arranged in the **HTML** document.
+But what is the **DOM**?
+
+The **DOM** (Document Object Model) is a *tree-like representation of the contents of a* **webpage** - a tree of **“nodes”** with different relationships depending on how they’re arranged in the **HTML** document.
 
     <div id="container"><br>
         <div class="display"></div><br> 
@@ -16,7 +18,8 @@ Think of it like a **family tree**:<br>
 
 When working with the **DOM**, you use **“selectors”** to *target the nodes you want to work with*. You can use a combination of **CSS-style selectors** and **relationship properties** to target the **nodes** you want.
 
-Let’s start with **CSS-style selectors**.<br>
+Let’s start with **CSS-style selectors**.
+
 In the above example, you could use the following **selectors** to refer to `<div class="display"></div>`:
 
 <ul>
