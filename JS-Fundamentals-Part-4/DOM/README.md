@@ -44,14 +44,14 @@ You can also use **relational selectors**<br>
     console.dir(controls.previousElementSibling);                 
     // selects the prior sibling => .display</p>
 
-So you’re **identifying a certain node** based on its *relationships to the **nodes** around it*.
+So you’re **identifying a certain node** based on its *relationships* to the **nodes** around it.
 
 # DOM methods
 
-When your **HTML** code is parsed by a **web browser**, it is **converted to the DOM** as was mentioned above. One of the primary differences is that these **nodes are objects** that have many *properties and methods* attached to them.
+When your **HTML** code is parsed by a web browser, it is **converted to the DOM** as was mentioned above. One of the primary differences is that these **nodes are objects** that have many *properties and methods* attached to them.
 
-These *properties and methods* are the primary tools we are going to use to *manipulate* our **webpage** with **JavaScript**.<br>
-We’ll start with the **query selectors** - *those that help you target* **nodes**.
+These *properties and methods* are the primary tools we are going to use to *manipulate* our webpage with **JavaScript**.<br>
+We’ll start with the **query selectors** - those that help you target **nodes**.
 
 **Query selectors**
 <ul>
@@ -78,7 +78,7 @@ One solution, if problems arise, is to *convert the nodelist into an* **array**.
 
 This function *does NOT* put your new element into the **DOM** - it simply **creates it in memory**.
 
-This is so that you can **manipulate the element** *(by adding styles, classes, ids, text, etc.)* before placing it on the page. 
+This is so that you can **manipulate the element** (by adding styles, classes, ids, text, etc.) before placing it on the page. 
 
 You can place the element into the **DOM** with one of the following methods.
 
