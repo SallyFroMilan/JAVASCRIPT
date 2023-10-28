@@ -160,7 +160,7 @@ It is often **standard (and cleaner) to toggle a CSS style** rather than adding 
 
 **Adding HTML content**
 
-    div.innerHTML = '`<span >Hello World!</span>`';
+    div.innerHTML = '<span >Hello World!</span>';
     // renders the HTML inside div                 
 
 Note that *textContent* is preferable for **adding text**, and *innerHTML* should be used *sparingly* as **it can create security risks if misused**.
