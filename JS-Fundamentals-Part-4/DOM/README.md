@@ -131,7 +131,7 @@ Note that if you’re accessing a kebab-cased CSS rule from **JS**, you’ll eit
 
     div.getAttribute('id');      
 
-    // returns value of specified attribute, in this case<br>
+    // returns value of specified attribute, in this case
     // "theDiv"
 
     div.removeAttribute('id');        
