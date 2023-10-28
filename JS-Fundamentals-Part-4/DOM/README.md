@@ -6,9 +6,9 @@ But what is the **DOM**?
 
 The **DOM** (Document Object Model) is a *tree-like representation of the contents of a* **webpage** - a tree of **“nodes”** with different relationships depending on how they’re arranged in the **HTML** document.
 
-    <div id="container"><br>
-        <div class="display"></div><br> 
-        <div class="controls"></div><br>
+    <div id="container">
+        <div class="display"></div>
+        <div class="controls"></div>
     </div>
 
 In the above example, the `<div class="display"></div>` is a **“child”** of `<div id="container"></div>` and a **sibling** to `<div class="controls"></div>`.
@@ -32,7 +32,7 @@ In the above example, you could use the following **selectors** to refer to `<di
 You can also use **relational selectors**<br>
 (i.e. `firstElementChild` or `lastElementChild` etc.) with special properties owned by the **nodes**.
 
-    const container = document.querySelector('#container');<br>
+    const container = document.querySelector('#container');
     // selects the #container div (don't worry about the syntax, we'll get there)
 
     console.dir(container.firstElementChild);                   
@@ -42,7 +42,7 @@ You can also use **relational selectors**<br>
     // selects the .controls div
 
     console.dir(controls.previousElementSibling);                 
-    // selects the prior sibling => .display</p>
+    // selects the prior sibling => .display
 
 So you’re **identifying a certain node** based on its *relationships* to the **nodes** around it.
 
@@ -97,12 +97,12 @@ You can place the element into the **DOM** with one of the following methods.
 
 When you have a reference to an element, you can use that reference to **alter the element’s own properties**. This allows you to **do many useful alterations**, like *adding/removing and altering attributes, changing classes, adding inline style information* and more.
 
-    const div = document.createElement('div');<br>
+    const div = document.createElement('div');
     // creates a new div referenced in the variable 'div'
 
 **Adding inline style**
 
-    div.style.color = 'blue';<br>
+    div.style.color = 'blue';
     // adds the indicated style rule
 
     div.style.cssText = 'color: blue; background: white;';
@@ -154,13 +154,13 @@ It is often **standard (and cleaner) to toggle a CSS style** rather than adding 
 
 **Adding text content**
 
-    div.textContent = 'Hello World!'<br>
-    // creates a text node containing "Hello World!" and<br>
+    div.textContent = 'Hello World!'
+    // creates a text node containing "Hello World!" and
     // inserts it in div
 
 **Adding HTML content**
 
-    div.innerHTML = '`<span >Hello World!</span>`';<br>
+    div.innerHTML = '`<span >Hello World!</span>`';
     // renders the HTML inside div                 
 
 Note that *textContent* is preferable for **adding text**, and *innerHTML* should be used *sparingly* as **it can create security risks if misused**.
