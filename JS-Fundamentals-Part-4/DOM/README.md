@@ -105,7 +105,7 @@ When you have a reference to an element, you can use that reference to **alter t
     div.style.color = 'blue';<br>
     // adds the indicated style rule
 
-    div.style.cssText = 'color: blue; background: white;';<br>
+    div.style.cssText = 'color: blue; background: white;';
     // adds several style rules
 
     div.setAttribute('style', 'color: blue; background: white;');
