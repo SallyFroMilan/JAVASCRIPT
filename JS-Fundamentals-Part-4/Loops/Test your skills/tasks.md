@@ -31,7 +31,7 @@ In this final task, you are provided with the following:
 <li><code>i</code> — starts off with a value of 500; intended to be used as an iterator.
 <li><code>para</code> — contains a reference to a paragraph, which will be used to report the results.
 <li><code>isPrime()</code> — a function that, when passed a number, returns true if the number is a prime number, and false if not.
-
+</ul>
 You need to use a loop to go through the numbers 2 to 500 backwards (1 is not counted as a prime number), and run the provided <code>isPrime()</code> function on them. For each number that isn't a prime number, continue on to the next loop iteration. For each one that is a prime number, add it to the paragraph's <code>textContent</code> along with some kind of separator.
 
 You should use a type of loop that you've not used in the previous two tasks.
