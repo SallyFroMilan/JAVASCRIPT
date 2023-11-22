@@ -21,13 +21,13 @@ This means that you can keep:
 
 ## Using branches
 
-You can make new branches by using the command git branch `<branch_name>`. 
+- You can make new branches by using the command git branch `<branch_name>`. 
 
-You can then change to your new branch using git checkout `<branch_name>`.
+- You can then change to your new branch using git checkout `<branch_name>`.
 
-You can also create a new branch and change to it in a single command by using the `-b` flag with `checkout`, in the form `git checkout -b <branch_name>`.
+- You can also create a new branch and change to it in a single command by using the `-b` flag with `checkout`, in the form `git checkout -b <branch_name>`.
 
-You can see all of your current branches using `git branch` with no other arguments. The branch that you’re currently on will be indicated with an asterisk. If you want to change back to `main` from any other branch, you can do so just like changing to any other branch using `git checkout main`.
+- You can see all of your current branches using `git branch` with no other arguments. The branch that you’re currently on will be indicated with an asterisk. If you want to change back to `main` from any other branch, you can do so just like changing to any other branch using `git checkout main`.
 
 Once you are done working on your feature branch and are ready to bring the commits that you’ve made on it to your main branch, you will need to perform what is known as a `merge`.
 
