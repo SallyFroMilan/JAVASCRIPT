@@ -21,9 +21,9 @@ This means that you can keep:
 
 ## Using branches
 
-- You can make new branches by using the command git branch `<branch_name>`. 
+- You can make new branches by using the command `git branch <branch_name>`. 
 
-- You can then change to your new branch using git checkout `<branch_name>`.
+- You can then change to your new branch using `git checkout <branch_name>`.
 
 - You can also create a new branch and change to it in a single command by using the `-b` flag with `checkout`, in the form `git checkout -b <branch_name>`.
 
