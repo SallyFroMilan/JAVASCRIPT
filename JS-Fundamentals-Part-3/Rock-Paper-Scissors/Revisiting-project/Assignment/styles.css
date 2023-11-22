@@ -1,0 +1,98 @@
+body {
+    background-image: url('./images/gameover.jpg');
+    background-size: 1360px 860px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    background-color: grey;
+}
+
+.selections {
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+}
+
+.rock,
+.paper,
+.scissors {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 85px;
+    transition: 60ms;
+}
+
+.rock:hover {
+    transform: scale(1.33);
+}
+
+.paper:hover {
+    transform: scale(1.33);
+}
+
+.scissors:hover {
+    transform: scale(1.33);
+}
+
+h1 {
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 43px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.result {
+    display: grid;
+    grid-template-columns: 370px 1600px;
+    justify-items:center;
+}
+
+.score-result {
+    font-size: 30px;
+    font-weight: 800;
+    color: goldenrod;
+}
+
+.selection-result {
+    opacity: .5;
+    font-size: 40px;
+}
+
+.selection-result.winner  {
+    opacity: 8;
+    font-size: 80px;
+}
+
+.player {
+    color: blue;
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: -110px; 
+    margin-left: 0px;
+}
+
+.computer {
+    color: blue;
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: -110px;
+    margin-left: -10px;
+}
+
+.left {
+    margin-left: 65px;
+}
+
+.right {
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
