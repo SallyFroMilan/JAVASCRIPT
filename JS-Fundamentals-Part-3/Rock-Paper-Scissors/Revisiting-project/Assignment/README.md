@@ -3,7 +3,7 @@
 <ol>
 <li>Set up a <strong>new branch</strong> on your previous <strong>Rock Paper Scissors</strong> repo.
 <ol>
-<li>Since we’ll be making a <strong>UI</strong> for our <strong>Rock Paper Scissors</strong> game, make a new branch and change to it with the command <code>git checkout -b rps-ui</code>.</li><br>
+<li>Since we’ll be making a <strong>UI</strong> for our <strong>Rock Paper Scissors</strong> game, make a new branch and change to it with the command <code>git checkout -b rps-ui</code>.</li>
 <li>You are now working in the <code>rps-</code> branch, locally. However, this branch <em>does not exist</em> in your <strong>remote repo</strong> yet. If you go to your github repo page, you’ll see that you only have 1 branch, which would be <code>main</code>. <strong>Let’s push this new branch to your remote repo</strong> with the command <code>git push origin rps-ui</code>. Now, you’ll see <strong>two branches</strong> in your GitHub repository! You can select the new branch on GitHub using the dropdown branch selector.</li>
 <li>Make sure you are on the <code>rps-ui</code> branch. You can check this, with the <code>git branch</code> command. The branch you are currently on will have an (*)asterisk next to it. If you’re in another branch for some reason, change to <code>rps-ui</code> with the command <code>git checkout rps-ui</code>. Now you’re all set to work on your new feature! Note: <em>You can add files, commit to this branch, and push changes to your repo</em>, just like you would with the main branch. Everything is the same <em>except</em> when you <strong>push the changes</strong>, you’d use <code>git push origin rps-ui</code> instead of <code>git push origin main</code>, since we’re pushing to our new branch.</li>
 </ol><br>
