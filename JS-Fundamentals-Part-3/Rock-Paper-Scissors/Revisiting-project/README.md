@@ -41,7 +41,8 @@ When you don’t need a branch anymore, it can be deleted using `git branch -d <
 
 Another great use case for branches is to share code with others that you might not want to commit to your main branch (or feature branch) at all.
 
-For example: if you have a bug in a new feature you’re working on that you can’t figure out, and **it causes your code to break**, you *don’t want* **to commit that broken code and have it in your project’s “permanent record”**.<br> 
+For example: if you have a bug in a new feature you’re working on that you can’t figure out, and **it causes your code to break**, you *don’t want* **to commit that broken code and have it in your project’s “permanent record”**.
+
 You could instead **create a new *temporary branch***, switch to it and commit your code to this new branch. If you then push this new temporary branch to **GitHub** you can share it with others that may be able to help solve your problem.
 
 
