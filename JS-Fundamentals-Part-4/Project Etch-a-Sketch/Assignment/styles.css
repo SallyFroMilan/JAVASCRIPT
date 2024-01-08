@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, blue, #E9275B);
+
+}
+
+.title {
+    text-shadow: 0 0 13px white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    margin-bottom: -10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    margin-top: 12px;
+}
+
+.board {
+    display: grid;
+    height: 450px;
+    width: 450px;
+    border: 10px solid #FF00FF;
+    border-radius: 15px;
+    background: white;
+}
+
