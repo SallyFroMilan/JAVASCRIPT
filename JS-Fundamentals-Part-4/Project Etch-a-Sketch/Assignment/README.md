@@ -1,11 +1,9 @@
-# Etch-A-Sketch Project
-
 <ol>
 <li>Create a webpage with a 16x16 grid of square divs.</li>
 <ul>
-<li>Create the divs using JavaScript. Don’t try making them by hand with copy and pasting in your HTML file!</li>
-<li>It’s best to put your grid squares inside another “container” div (which can go directly in your HTML).</li>
-<li>Use flexbox to make the divs appear as a grid (versus just one on each line). Despite the name, do not be tempted to research/use CSS Grid for this as Grid will be taught later after the foundations course. This is an opportunity specifically to get more practice in for flexbox!</li>
+<li>Create the divs using JavaScript. Don’t try making them by hand by copying and pasting them into your HTML file!</li>
+<li>It’s best to put your grid squares inside another “container” div (which can go directly into your HTML).</li>
+<li>Use flexbox to make the divs appear as a grid (versus just one on each line). Despite the name, do not be tempted to research/use CSS Grid for this as Grid will be taught later after the foundation's course. This is an opportunity specifically to get more practice in for Flexbox!</li>
 <li>Be careful with borders and margins, as they can adjust the size of the squares!</li>
 <li>“OMG, why isn’t my grid being created???”</li>
 <li>Did you link your CSS stylesheet?</li>
@@ -14,12 +12,12 @@
 <li>Check your “elements” pane to see if the elements have actually shown up but are somehow hidden.</li>
 <li>Go willy-nilly and add <code>console.log</code> statements in your JavaScript to see if it’s actually being loaded.</li>
 </ul><br>
-<li>Set up a “hover” effect so that the grid divs change color when your mouse passes over them, leaving a (pixelated) trail through your grid like a pen would.</li>
+<li>Set up a “hover” effect so that the grid divs change color when your mouse passes over them, leaving a (pixelated) trail through your grid as a pen would.</li>
 <ul>
 <li>Hint: “Hovering” is what happens when your mouse enters a div and ends when your mouse leaves it. You can set up event listeners for either of those events as a starting point.</li>
 <li>There are multiple ways to change the color of the divs, including:</li>
-<li>adding a new class to the div.</li>
-<li>changing the div’s background color using JavaScript.</li>
+<li>Adding a new class to the div.</li>
+<li>Changing the div’s background color using JavaScript.</li>
 </ul><br>
 <li>Add a button to the top of the screen that will send the user a popup asking for the number of squares per side for the new grid. Once entered, the existing grid should be removed and a new grid should be generated in the same total space as before (e.g. 960px wide) so that you’ve got a new sketch pad. <strong>Tip</strong>: Set the limit for the user input to a maximum of 100. A larger number of squares results in more computer resources being used, potentially causing delays, freezing, or crashing that we want to prevent.</li>
 <ul>
