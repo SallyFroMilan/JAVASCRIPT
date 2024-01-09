@@ -4,7 +4,6 @@ body {
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(to bottom right, blue, #E9275B);
-
 }
 
 .title {
@@ -18,6 +17,7 @@ body {
     justify-content: space-between;
     width: 350px;
     margin-bottom: -10px;
+    background-image: linear-gradient(to bottom right, #3C0AD4, #530EC4);
 }
 
 .footer {
@@ -27,6 +27,7 @@ body {
     justify-content: space-between;
     width: 450px;
     margin-top: 12px;
+    background-image: linear-gradient(to bottom right, #911899, #D92466);
 }
 
 .board {
@@ -37,4 +38,3 @@ body {
     border-radius: 15px;
     background: white;
 }
-

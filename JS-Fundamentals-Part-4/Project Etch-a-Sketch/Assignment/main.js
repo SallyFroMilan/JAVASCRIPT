@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', function(){
     })
 })
 
-
 function createBoard(size) {
     let board = document.querySelector('.board')
 
