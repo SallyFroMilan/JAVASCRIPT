@@ -29,7 +29,7 @@ To **remove** a property, we can use the **delete operator**:
 
     delete user.age;
 
-We can also use **multiword property names**, but then they must be **quoted**-> " ".
+We can also use **multiword property names**, but then they must be **quoted** " ".
 
 The **last** property in the list may end with a **comma**; makes it easier to add/remove/move around properties, because all lines become alike.
 
