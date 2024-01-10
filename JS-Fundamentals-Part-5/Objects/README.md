@@ -267,7 +267,7 @@ What we’ve studied in this chapter is called a “plain object”, or just Obj
 
 There are many other kinds of objects in JavaScript:
 <ul>
-</li>Array to store ordered data collections,</li>
+<li>Array to store ordered data collections,</li>
 <li>Date to store the information about the date and time,</li>
 <li>Error to store the information about an error.</li>
 <li>…And so on.</li>
