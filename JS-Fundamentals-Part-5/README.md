@@ -1,5 +1,5 @@
  
- In this lesson, you will learn about **Objects** - *a collection of key-value pairs* - as well as some more powerful and commonly used **array methods**. Before you know it, you’ll have a better understanding of **how powerful objects and arrays are** and how both can be an indispensable part of your JavaScript tool kit!
+ In this lesson, you will learn about **Objects** - *a collection of key-value pairs* - as well as some more powerful and commonly used **array methods**. You’ll get a better understanding of **how powerful objects and arrays are** and how both can be an indispensable part of your JavaScript tool kit!
 
  ## Objects 
 
