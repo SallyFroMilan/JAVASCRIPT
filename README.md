@@ -5,10 +5,10 @@
 It's a **scripting language** that caters the most to <em>web-based programs</em>, creating **dynamic and interactive** <em>web content</em> as applications and browsers.
 
 It contains a number of features for:
-- **manipulating strings**
-- **creating custome welcome messages and prompts**
-- **showing the right text labels when needed**
-- **sorting terms into the desired order**
+> - **manipulating strings**
+> - **creating custome welcome messages and prompts**
+> - **showing the right text labels when needed**
+> - **sorting terms into the desired order**
 
 and much more.
 
