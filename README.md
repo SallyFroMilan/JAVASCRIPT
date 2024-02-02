@@ -12,7 +12,7 @@ It contains a number of features for:
 <li><strong>sorting terms into the desired order</strong></li>
 </ul>
 
-and much more
+and much more.
 
 Generally used alongside **HTML** and **CSS**, is able to **update and change** <em>both of them.</em><br>
 **JS** is great for its **simplicity, speed, versatility, popularity, server load and updates.**<br>
