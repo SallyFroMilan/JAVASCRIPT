@@ -11,6 +11,7 @@ It contains a number of features for:
 <li><strong>showing the right text labels when needed</strong></li>
 <li><strong>sorting terms into the desired order</strong></li>
 </ul>
+
 and much more.
 
 Generally used alongside **HTML** and **CSS**, is able to **update and change** <em>both of them.</em>
