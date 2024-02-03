@@ -6,7 +6,7 @@ Here are some use cases (abilities your project needs to have):
 <li>subtract</li>
 <li>multiply</li>
 <li>divide</li>
-</ul>
+</ul><br>
 <li>A calculator operation will consist of a number, an operator, and another number. For example, 3 + 5. Create three variables for each of the parts of a calculator operation. Create a variable for the first number, the operator, and the second number. You’ll use these variables to update your display later.</li><br>
 <li>Create a new function <code>operate</code> that takes an operator and 2 numbers and then calls one of the above functions on the numbers.</li><br>
 <li>Create a basic HTML calculator with buttons for each digit, each of the above functions and an “Equals” key.
@@ -20,7 +20,7 @@ Here are some use cases (abilities your project needs to have):
 <ul>
 <li>You should already have the code that can populate the display, so once <code>operate()</code> has been called, update the display with the ‘solution’ to the operation.</li>
 <li>This is the hardest part of the project. You need to figure out how to store all the values and call the operate function with them. Don’t feel bad if it takes you a while to figure out the logic.</li>
-</ul>
+</ul><br>
 <li>Gotchas: watch out for and fix these bugs if they show up in your code:</li>
 <ul>
 <li> Users should be able to string together several operations and get the right answer, with each pair of numbers being evaluated at a time. For example, <code>12 + 7 - 5 * 3 =</code> should yield <code>42</code>.</li>
