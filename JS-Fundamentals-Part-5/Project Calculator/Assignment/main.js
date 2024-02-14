@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
         previousValue = '';
         currentValue = '';
         operator = '';
-        previousScreen.textContent = '0';
-        currentScreen.textContent = '';
+        previousScreen.textContent = currentValue;
+        currentScreen.textContent = '0';
     })
 
     equal.addEventListener('click', function() {
